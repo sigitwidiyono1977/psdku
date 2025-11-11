@@ -4,7 +4,7 @@ PHP 8.2
 Download https://getcomposer.org/Composer-Setup.exe install di komputer
 Didalam xampp/htdocs/
 xxxxx = bts, jaringan, sisdomain, blankspot
-Gunakan command prompt
+Gunakan command prompt buka folder xampp/htdocs
 composer create-project --prefer-dist laravel/laravel xxxxx
 
 buat databases untuk masing2 aplikasi yang dibangun
