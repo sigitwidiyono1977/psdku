@@ -30,7 +30,7 @@ created_id int(11) Null
 created_at datetime Null
 updated_id int(11) Null
 updated_at datetime Null
-tambahkan baris data untuk ref_kabupaten kd_kab=6208, kabupaten=Sukamara
+tambahkan baris data untuk ref_kabupaten kd_kab=6208, kabupaten=SUKAMARA
 
 ref_kecamatan
 id int(11) auto increment Primary Key
@@ -41,11 +41,11 @@ created_at datetime Null
 updated_id int(11) Null
 updated_at datetime Null
 tambahkan baris data untuk ref_kecamatan : 
-kd_kec=620801, kecamatan=Sukamara
-kd_kec=620802, kecamatan=Jelai
-kd_kec=620803, kecamatan=Balai Riam
-kd_kec=620804, kecamatan=Pantai Lunci
-kd_kec=620805, kecamatan=Permata Kecubung
+kd_kec=620801, kecamatan=SUKAMARA
+kd_kec=620802, kecamatan=JELAI
+kd_kec=620803, kecamatan=BALAI RIAM
+kd_kec=620804, kecamatan=PANTAI LUNCI
+kd_kec=620805, kecamatan=PERMATA KECUBUNG
 
 ref_desa
 id int(11) auto increment Primary Key
