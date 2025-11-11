@@ -17,5 +17,5 @@ class KabupatenModel extends Model
     protected $primaryKey = 'id';
     public $timestamps = false;
 
-    protected $fillable = ['kd_kabupaten', 'kabupaten', 'created_at', 'updated_at'];
+    protected $fillable = ['kd_kabupaten', 'kabupaten', 'created_id','created_at', 'updated_id', 'updated_at'];
 }
