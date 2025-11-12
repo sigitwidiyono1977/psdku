@@ -7,6 +7,15 @@ xxxxx = bts, jaringan, sisdomain, blankspot
 Gunakan command prompt buka folder xampp/htdocs
 composer create-project --prefer-dist laravel/laravel xxxxx
 
+#siapkan databases 
+rubah file .env di folder induk
+isikan nama databases, username dan password 
+
+#lakukan perintah ini
+php artisan session
+php artisan migrate
+
+#contoh isi database
 buat databases untuk masing2 aplikasi yang dibangun
 nama databases nya server_xxxxx
 buat tabel: 
