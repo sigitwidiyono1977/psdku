@@ -97,3 +97,73 @@ kd_desa='6208052004', desa='DESA SEMANTUN'
 kd_desa='6208052005', desa='DESA NIBUNG TERJUN'
 kd_desa='6208052006', desa='DESA NATAI KONDANG'
 kd_desa='6208052007', desa='DESA SEMBIKUAN'
+
+#20251118
+tab_bts //untuk aplikasi bts
+id int(11) autoincrement Primary Key
+kd_site varchar(30) null
+pemilik varchar(100) null
+lat varchar(30) null
+lng varchar(30) null
+kd_kab varchar(30) null
+kd_kec varchar(30) null
+kd_desa varchar(30) null
+tinggi int(11) null
+luas varchar(30) null
+status enum("1","0") default "1"
+keterangan varchar(255) null
+created_id int(11) Null
+created_at datetime Null
+updated_id int(11) Null
+updated_at datetime Null
+
+tab_jaringan //untuk aplikasi jaringan publik
+id int(11) autoincrement Primary Key
+kd_fasilitas varchar(30) null
+lat varchar(30) null
+lng varchar(30) null
+kd_kab varchar(30) null
+kd_kec varchar(30) null
+kd_desa varchar(30) null
+alamat varchar(255) null
+status enum("1","0") default "1"
+keterangan varchar(255) null
+created_id int(11) Null
+created_at datetime Null
+updated_id int(11) Null
+updated_at datetime Null
+
+tab_subdomain //untuk aplikasi subdomain
+id int(11) autoincrement Primary Key
+nama_sub varchar(100) null
+skpd varchar(100) null
+p_jawab varchar(100) null
+no_hp varchar(100) null
+lat varchar(30) null
+lng varchar(30) null
+kd_kab varchar(30) null
+kd_kec varchar(30) null
+kd_desa varchar(30) null
+status enum("1","0") default "1"
+keterangan varchar(255) null
+created_id int(11) Null
+created_at datetime Null
+updated_id int(11) Null
+updated_at datetime Null
+
+tab_blankspot //untuk aplikasi blankspot
+id int(11) autoincrement Primary Key
+p_jawab varchar(100) null
+no_hp varchar(100) null
+lat varchar(30) null
+lng varchar(30) null
+kd_kab varchar(30) null
+kd_kec varchar(30) null
+kd_desa varchar(30) null
+status enum("1","0") default "1"
+pln enum("1","0") default "1"
+keterangan varchar(255) null
+created_id int(11) Null
+created_at datetime Null
+updated_id int(11) Null
+updated_at datetime Null
