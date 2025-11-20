@@ -167,3 +167,12 @@ created_id int(11) Null
 created_at datetime Null
 updated_id int(11) Null
 updated_at datetime Null
+
+#20251120
+Lakukan perbaikan semua class jika terdapat error class, jalankan secara beruntun :
+composer dump-autoload
+php artisan config:clear
+php artisan route:clear
+php artisan cache:clear
+php artisan optimize:clear
+
